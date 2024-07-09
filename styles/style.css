@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* banner section starts here */
+/* banner section styles starts here */
 .banner {
     width: 1440px;
     height: 652px;
@@ -46,18 +46,157 @@
     font-size: 18px;
     margin-bottom: 44px;
 }
-.banner-content-contact{
+
+.banner-content-contact {
     color: white;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 26px 221px 44px;
 }
-.banner-section{
 
+/* banner section styles ends here */
+
+/* Why Web Development section style starts here */
+.why-web-section {
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 74px;
+    padding: 80px;
 }
 
-/* banner section ends here */
+.why-web-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-web-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.why-left-mid-content, .why-bottom-content{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 48px;
+    margin-top: 48px;
+}
+
+.left-mid-title, .bottom-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.left-mid-para, .bottom-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.why-left-mid-btn, .why-bottom-btn {
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.left-mid-text, .bottom-text{
+    width: 477px;
+    height: 219px;
+}
+
+.right-mid-image, .right-bottom-image{
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.why-last-content {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 32px; */
+}
+
+.right-last-image {
+    width: 223.2px;
+    height: 208.85px;
+    padding: 0 16px 31px 70px;
+}
+
+.last-right-text {
+    width: 477px;
+    height: 219px;
+    margin-top: 10.5px;
+}
+
+.last-right-title {
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.last-right-para {
+    width: 468px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.last-right-btn {
+    width: 171px;
+    height: 47px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 800px;
+    margin-top: 32px;
+}
