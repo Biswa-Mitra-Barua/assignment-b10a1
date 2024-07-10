@@ -64,7 +64,7 @@
 /* Why Web Development section style starts here */
 .why-web-section {
     width: 1140px;
-    height: 1393px;
+    height: 1250px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     align-items: center;
@@ -334,10 +334,105 @@
     flex-direction: column;
     align-items: center;
 }
-.video-image-content{
+
+.video-image-content {
     width: 1140px;
     height: 614px;
     padding: 0;
     margin: 0 auto;
     border-radius: 15px;
 }
+
+/* my inspiration section styles end here */
+
+.my-current-target-sec {
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.current-target-title {
+    width: 852px;
+    height: 37px;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 151px;
+}
+
+.current-target-para {
+    width: 852px;
+    height: 52px;
+    margin: 0 auto;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 65px;
+}
+
+.target-items1 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-items2 {
+        width: 364px;
+        height: 299px;
+        padding: 40px;
+        border-radius: 16px;
+        background-color: rgba(0, 76, 232, 0.05);
+}
+
+.target-items3 {
+        width: 364px;
+        height: 299px;
+        padding: 40px;
+        border-radius: 16px;
+        background-color: rgba(255, 223, 0, 0.05);
+}
+
+    .target-item-container {
+        width: 1140px;
+        height: 270px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        gap: 24px;
+    }
+
+    .target-btn {
+        width: 284px;
+        height: 19px;
+        /* color: rgb(13, 19, 33); */
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 24px 0;
+        border: none;
+        text-align: left;
+        text-decoration: underline;
+    }
+
+    #target-title {
+        width: 284px;
+        height: 36px;
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        margin: 10px 10px;
+    }
