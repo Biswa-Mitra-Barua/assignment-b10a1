@@ -119,9 +119,7 @@
     font-weight: 400;
     margin-top: 16px;
 }
-
-.why-left-mid-btn,
-.why-bottom-btn {
+.why-bottom-btn,.why-left-mid-btn {
     width: 171px;
     height: 47px;
     padding: 12px 20px;
@@ -195,11 +193,13 @@
     height: 47px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
+    opacity: 0.8;
     padding: 12px 20px;
-    font-size: 18px;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-family: Azeret Mono;
     font-weight: 800px;
-    margin-top: 32px;
+    margin-top: 30px;
 }
 
 /* Why Web Development section style ends here */
@@ -384,55 +384,56 @@
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
 }
+
 .target-items2 {
-        width: 364px;
-        height: 299px;
-        padding: 40px;
-        border-radius: 16px;
-        background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
 }
 
 .target-items3 {
-        width: 364px;
-        height: 299px;
-        padding: 40px;
-        border-radius: 16px;
-        background-color: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
-    .target-item-container {
-        width: 1140px;
-        height: 270px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        gap: 24px;
-    }
+.target-item-container {
+    width: 1140px;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 24px;
+}
 
-    .target-btn {
-        width: 284px;
-        height: 19px;
-        /* color: rgb(13, 19, 33); */
-        font-family: Azeret Mono;
-        font-size: 16px;
-        font-weight: 700;
-        margin: 24px 0;
-        border: none;
-        text-align: left;
-        text-decoration: underline;
-    }
+.target-btn {
+    width: 284px;
+    height: 19px;
+    background-color: rgba(255, 223, 0, 0.05);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+    border: none;
+    text-align: left;
+    text-decoration: underline;
+}
 
-    #target-title {
-        width: 284px;
-        height: 36px;
-        color: rgb(13, 19, 33);
-        font-family: Azeret Mono;
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 36px;
-        margin: 10px 10px;
-    }
+#target-title {
+    width: 284px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 10px 10px;
+}
